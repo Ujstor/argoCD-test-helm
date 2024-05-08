@@ -1,5 +1,5 @@
 name: http-server
-namespace: argocd-test 
+namespace: http-test 
 
 deployment:
   image: "ujstor/argocd-test"
@@ -11,4 +11,4 @@ services:
   port: 8088
   targetPort: 8088
 
-domain: 
+domain: #argocd-test.ujstor.com
