@@ -8,9 +8,4 @@ deployment:
 services:
   port: 8088
   targetPort: 8088
-<<<<<<< Updated upstream
-domain: #argocd-test.ujstor.com
-=======
-
-domain: 
->>>>>>> Stashed changes
+domain:
