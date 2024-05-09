@@ -2,7 +2,7 @@ name: http-server
 namespace: http-test
 deployment:
   image: "ujstor/argocd-test"
-  tag: "0.0.4"
+  tag: "0.0.5"
   replicas: 1
   containerPort: 8088
 services:
